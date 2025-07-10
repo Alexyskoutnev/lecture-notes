@@ -19,7 +19,7 @@ from reduced HBM traffic.
 from __future__ import annotations
 import math, torch
 from torch import Tensor
-from display_mtx import *
+from display_mtx import display_o_all_heads
 
 
 # -------------------------------------------------------------------------
