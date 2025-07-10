@@ -1,0 +1,14 @@
+
+D_MODEL  = 32   
+N_HEADS  = 2
+D_HEAD   = D_MODEL // N_HEADS 
+SEQ_LEN  = 64
+VOCAB    = 50_000
+
+MODEL_PARAMS = {
+    "D_MODEL": D_MODEL,
+    "N_HEADS": N_HEADS,
+    "D_HEAD": D_HEAD,
+    "SEQ_LEN":  SEQ_LEN,
+    "VOCAB": VOCAB
+}
